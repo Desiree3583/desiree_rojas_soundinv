@@ -13,6 +13,6 @@ while True:
         pause(1000)
         light.clear()
         pause(1000)
-        music.magic_wand.play_until_done()
+        music.wawawawaa.play_until_done()
     else:
         light.clear()
