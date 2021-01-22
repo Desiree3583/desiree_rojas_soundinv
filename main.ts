@@ -6,6 +6,7 @@ while (true) {
         light.clear()
         pause(1000)
         music.magicWand.playUntilDone()
+        music.setVolume(255)
     } else {
         light.clear()
     }
@@ -16,6 +17,7 @@ while (true) {
         light.clear()
         pause(1000)
         music.wawawawaa.playUntilDone()
+        music.setVolume(255)
     } else {
         light.clear()
     }

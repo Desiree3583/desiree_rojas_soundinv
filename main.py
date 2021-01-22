@@ -6,6 +6,7 @@ while True:
         light.clear()
         pause(1000)
         music.magic_wand.play_until_done()
+        music.set_volume(255)
     else:
         light.clear()
     if input.light_level() < 15:
@@ -14,5 +15,6 @@ while True:
         light.clear()
         pause(1000)
         music.wawawawaa.play_until_done()
+        music.set_volume(255)
     else:
         light.clear()
